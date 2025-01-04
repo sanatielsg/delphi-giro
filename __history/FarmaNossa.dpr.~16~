@@ -15,8 +15,7 @@ uses
   UOperadorDAO in 'Model\DAO\UOperadorDAO.pas',
   ULocalDAO in 'Model\DAO\ULocalDAO.pas',
   UEstoqueDAO in 'Model\DAO\UEstoqueDAO.pas',
-  UDatabase in 'Model\Database\UDatabase.pas',
-  UDM in 'Model\Database\UDM.pas' {DM: TDataModule};
+  UDatabase in 'Model\Database\UDatabase.pas';
 
 {$R *.res}
 
@@ -24,6 +23,5 @@ begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TFrmMain, FrmMain);
-  Application.CreateForm(TDM, DM);
   Application.Run;
 end.
