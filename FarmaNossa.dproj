@@ -94,6 +94,10 @@
             <Form>FrmMain</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="Model\Entity\UOperador.pas"/>
+        <DCCReference Include="Model\Entity\UProduto.pas"/>
+        <DCCReference Include="Model\Entity\ULocal.pas"/>
+        <DCCReference Include="Model\Entity\UEstoqueMovimento.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

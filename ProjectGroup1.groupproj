@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{9BD127D3-9320-4A4B-8876-3538E94C3833}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="FarmaNossa.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="FarmaNossa">
+        <MSBuild Projects="FarmaNossa.dproj"/>
+    </Target>
+    <Target Name="FarmaNossa:Clean">
+        <MSBuild Projects="FarmaNossa.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FarmaNossa:Make">
+        <MSBuild Projects="FarmaNossa.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="FarmaNossa"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="FarmaNossa:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="FarmaNossa:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,21 @@
+unit UOperador;
+
+interface
+
+type
+TOperador = class
+  public
+    FCodigo : Integer;
+    FNome   : String;
+    FLogin  : String;
+    FSenha  : String;
+  private
+    property Codigo : Integer read FCodigo write FCodigo ;
+    property Come   : String  read FNome write FNome ;
+    property Cogin  : String  read FLogin write FLogin ;
+    property Cenha  : String  read FSenha write FSenha ;
+end;
+
+implementation
+
+end.

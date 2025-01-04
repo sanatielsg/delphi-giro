@@ -1,0 +1,15 @@
+unit UOperador;
+
+interface
+
+type
+TOperador = class
+
+
+
+end;
+
+
+implementation
+
+end.

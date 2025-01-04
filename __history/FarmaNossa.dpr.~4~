@@ -5,8 +5,7 @@ uses
   UFrmMain in 'view\UFrmMain.pas' {FrmMain},
   UOperador in 'Model\Entity\UOperador.pas',
   UProduto in 'Model\Entity\UProduto.pas',
-  ULocal in 'Model\Entity\ULocal.pas',
-  UEstoqueMovimento in 'Model\Entity\UEstoqueMovimento.pas';
+  ULocal in 'Model\Entity\ULocal.pas';
 
 {$R *.res}
 
