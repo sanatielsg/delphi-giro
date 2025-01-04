@@ -1,0 +1,19 @@
+unit ULocal;
+
+interface
+
+type
+TLocal = class
+  private
+    FCodigo : Integer;
+    FDescricao : String;
+    FStatus: Integer;
+  public
+    property Codigo : Integer   read  write  ;
+    property Descricao : String read  write  ;
+    property Status: Integer    read  write  ;
+end;
+
+implementation
+
+end.

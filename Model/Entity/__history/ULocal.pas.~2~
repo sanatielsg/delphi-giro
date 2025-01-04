@@ -1,0 +1,18 @@
+unit ULocal;
+
+interface
+
+type
+TLocal = class
+  private
+
+
+  public
+
+
+
+end;
+
+implementation
+
+end.
