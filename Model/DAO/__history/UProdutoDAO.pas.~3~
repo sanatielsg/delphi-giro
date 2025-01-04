@@ -1,0 +1,22 @@
+unit UProdutoDAO;
+
+interface
+type
+  TProdutoDAO = class
+    private
+      FConnection : TObject;
+    public
+      constructor Create(AConnection: TObject);
+
+  end;
+
+implementation
+
+{ TProdutoDAO }
+
+constructor TProdutoDAO.Create(AConnection: TObject);
+begin
+
+end;
+
+end.

@@ -5,7 +5,10 @@ uses
   UFrmMain in 'view\UFrmMain.pas' {FrmMain},
   UOperador in 'Model\Entity\UOperador.pas',
   UProduto in 'Model\Entity\UProduto.pas',
-  ULocal in 'Model\Entity\ULocal.pas';
+  ULocal in 'Model\Entity\ULocal.pas',
+  UEstoqueEntrada in 'Model\Entity\UEstoqueEntrada.pas',
+  UEstoqueSaida in 'Model\Entity\UEstoqueSaida.pas',
+  UEstoque in 'Model\Dto\UEstoque.pas';
 
 {$R *.res}
 

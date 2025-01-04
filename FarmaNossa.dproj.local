@@ -21,5 +21,19 @@
     <Transaction>2025/01/04 00:29:54.353,C:\git-repositories\delphi-giro\Model\Entity\UProdutoLoteValidade.pas=</Transaction>
     <Transaction>2025/01/04 00:37:46.806,=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
     <Transaction>2025/01/04 00:38:08.072,C:\git-repositories\delphi-giro\Model\Dto\UEstoque.pas=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
+    <Transaction>2025/01/04 06:47:30.833,=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
+    <Transaction>2025/01/04 06:47:44.697,C:\git-repositories\delphi-giro\Model\DAO\UProdutoDAO.pas=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
+    <Transaction>2025/01/04 06:57:16.768,C:\git-repositories\delphi-giro\Model\Dto\UEstoque.pas=</Transaction>
+    <Transaction>2025/01/04 06:58:09.475,=C:\git-repositories\delphi-giro\Model\DTO\UEstoque.pas</Transaction>
+    <Transaction>2025/01/04 07:00:27.533,=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
+    <Transaction>2025/01/04 07:00:53.367,C:\git-repositories\delphi-giro\Model\DAO\UEstoqueEntradaDAO.pas=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
+    <Transaction>2025/01/04 07:01:04.791,=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
+    <Transaction>2025/01/04 07:01:54.901,C:\git-repositories\delphi-giro\Model\DAO\UEstoqueSaidaDAO.pas=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
+    <Transaction>2025/01/04 07:04:20.790,=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
+    <Transaction>2025/01/04 07:04:52.184,C:\git-repositories\delphi-giro\Model\DAO\UOperadorDAO.pas=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
+    <Transaction>2025/01/04 07:05:15.212,=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
+    <Transaction>2025/01/04 07:05:38.387,C:\git-repositories\delphi-giro\Model\DAO\ULocalDAO.pas=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
+    <Transaction>2025/01/04 07:08:14.493,=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
+    <Transaction>2025/01/04 07:09:09.420,C:\git-repositories\delphi-giro\Model\DAO\UEstoqueDAO.pas=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

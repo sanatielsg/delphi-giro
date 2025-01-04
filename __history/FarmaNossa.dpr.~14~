@@ -13,8 +13,7 @@ uses
   UEstoqueEntradaDAO in 'Model\DAO\UEstoqueEntradaDAO.pas',
   UEstoqueSaidaDAO in 'Model\DAO\UEstoqueSaidaDAO.pas',
   UOperadorDAO in 'Model\DAO\UOperadorDAO.pas',
-  ULocalDAO in 'Model\DAO\ULocalDAO.pas',
-  UEstoqueDAO in 'Model\DAO\UEstoqueDAO.pas';
+  ULocalDAO in 'Model\DAO\ULocalDAO.pas';
 
 {$R *.res}
 

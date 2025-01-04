@@ -1,0 +1,17 @@
+unit UProdutoDAO;
+
+interface
+type
+  TProdutoDAO = class
+    private
+      FConnection : TObject;
+
+    public
+
+
+
+  end;
+
+implementation
+
+end.
