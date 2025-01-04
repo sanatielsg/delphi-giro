@@ -7,8 +7,7 @@ uses
   UProduto in 'Model\Entity\UProduto.pas',
   ULocal in 'Model\Entity\ULocal.pas',
   UEstoqueEntrada in 'Model\Entity\UEstoqueEntrada.pas',
-  UEstoqueSaida in 'Model\Entity\UEstoqueSaida.pas',
-  UEstoque in 'Model\Dto\UEstoque.pas';
+  UEstoqueSaida in 'Model\Entity\UEstoqueSaida.pas';
 
 {$R *.res}
 

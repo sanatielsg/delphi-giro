@@ -99,6 +99,7 @@
         <DCCReference Include="Model\Entity\ULocal.pas"/>
         <DCCReference Include="Model\Entity\UEstoqueEntrada.pas"/>
         <DCCReference Include="Model\Entity\UEstoqueSaida.pas"/>
+        <DCCReference Include="Model\Dto\UEstoque.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

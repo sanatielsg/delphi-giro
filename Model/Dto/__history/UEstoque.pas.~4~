@@ -1,0 +1,28 @@
+unit UEstoque;
+
+interface
+
+type
+  TEstoque = class
+
+  end;
+
+  TFicha = class
+
+  end;
+
+  TRelacaoProduto = class
+
+  end;
+
+  TRelacaoProdutoConsolidadoLote = class
+
+  end;
+
+  TProdutoAgrupadoPorLocal = class
+
+  end;
+
+implementation
+
+end.

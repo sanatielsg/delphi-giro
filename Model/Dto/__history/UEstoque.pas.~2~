@@ -1,0 +1,24 @@
+unit UEstoque;
+
+interface
+
+type
+  TEstoque = class
+
+
+
+  end;
+
+  TFicha = class
+
+  end;
+
+  TRelacaoProduto = class
+
+  end;
+
+
+
+implementation
+
+end.
