@@ -1,0 +1,23 @@
+unit UProduto;
+
+interface
+
+type
+TProduto = class
+  private
+    FCodigo         : String;
+    FDescricao      : String;
+    FEstoqueNegativo: Integer;
+    FStatusEntrada  : Integer;
+    FStatusSaida    : Integer;
+  public
+    property Codigo         : String  read  write  ;
+    property Descricao      : String  read  write  ;
+    property EstoqueNegativo: Integer read  write  ;
+    property StatusEntrada  : Integer read  write  ;
+    property StatusSaida    : Integer read  write  ;
+end;
+
+implementation
+
+end.
