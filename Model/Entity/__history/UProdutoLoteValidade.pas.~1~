@@ -1,0 +1,14 @@
+unit UProdutoLoteValidade;
+
+interface
+
+type
+  TProdutoLoteValidade = class
+
+
+
+  end;
+
+implementation
+
+end.

@@ -6,8 +6,7 @@ uses
   UOperador in 'Model\Entity\UOperador.pas',
   UProduto in 'Model\Entity\UProduto.pas',
   ULocal in 'Model\Entity\ULocal.pas',
-  UEstoqueEntrada in 'Model\Entity\UEstoqueEntrada.pas',
-  UEstoqueSaida in 'Model\Entity\UEstoqueSaida.pas';
+  UEstoqueMovimento in 'Model\Entity\UEstoqueMovimento.pas';
 
 {$R *.res}
 

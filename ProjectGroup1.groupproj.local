@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions/>
+  <Transactions>
+    <Transaction>2025/01/03 23:44:05.988,C:\git-repositories\delphi-giro\ProjectGroup1.groupproj=C:\Users\dev\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj</Transaction>
+  </Transactions>
   <Default.Personality>
     <Projects ActiveProject="C:\git-repositories\delphi-giro\FarmaNossa.dproj"/>
   </Default.Personality>

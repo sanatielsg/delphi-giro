@@ -1,0 +1,19 @@
+unit UProdutoLoteValidade;
+
+interface
+
+type
+  TProdutoLoteValidade = class
+    private
+      FCodigo : Integer;
+      FCodProduto: Integer;
+      FLote: String;
+      FDataFabricacao: TDate;
+      FDataValidade: TDate;
+    public
+
+  end;
+
+implementation
+
+end.

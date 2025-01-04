@@ -13,5 +13,11 @@
     <Transaction>2025/01/03 23:43:47.553,C:\git-repositories\delphi-giro\Model\Entity\ULocal.pas=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
     <Transaction>2025/01/03 23:44:42.034,=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
     <Transaction>2025/01/03 23:45:04.425,C:\git-repositories\delphi-giro\Model\Entity\UEstoqueMovimento.pas=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
+    <Transaction>2025/01/04 00:07:12.842,C:\git-repositories\delphi-giro\Model\Entity\UEstoqueEntrada.pas=C:\git-repositories\delphi-giro\Model\Entity\UEstoqueMovimento.pas</Transaction>
+    <Transaction>2025/01/04 00:19:02.510,=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
+    <Transaction>2025/01/04 00:20:36.903,C:\git-repositories\delphi-giro\Model\Entity\UEstoqueSaida.pas=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
+    <Transaction>2025/01/04 00:21:31.287,=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
+    <Transaction>2025/01/04 00:21:59.223,C:\git-repositories\delphi-giro\Model\Entity\UProdutoLoteValidade.pas=C:\git-repositories\delphi-giro\Unit1.pas</Transaction>
+    <Transaction>2025/01/04 00:29:54.353,C:\git-repositories\delphi-giro\Model\Entity\UProdutoLoteValidade.pas=</Transaction>
   </Transactions>
 </BorlandProject>
