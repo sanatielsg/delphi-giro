@@ -1,0 +1,29 @@
+unit UEstoqueEntrada;
+
+interface
+
+type
+  TEstoqueEntrada = class
+    private
+      FCodigo        : Integer;
+      FCodProduto    : Integer;
+      FCodLocal      : Integer;
+      FLote          : String;
+      FDataFabricacao: TDate;
+      FDataVencimento: TDate;
+      FQuantidade    : Double;
+      FDataHora      : TDateTime;
+    public
+      property Codigo        : Integer   read  write  ;
+      property CodProduto    : Integer   read  write  ;
+      property CodLocal      : Integer   read  write  ;
+      property Lote          : String    read  write  ;
+      property DataFabricacao: TDate     read  write  ;
+      property DataVencimento: TDate     read  write  ;
+      property Quantidade    : Double    read  write  ;
+      property DataHora      : TDateTime read  write  ;
+  end;
+
+implementation
+
+end.

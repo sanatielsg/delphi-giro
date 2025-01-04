@@ -1,0 +1,22 @@
+unit UEstoqueEntrada;
+
+interface
+
+type
+  TEstoqueEntrada = class
+    private
+      FCodigo        : Integer;
+      FCodProduto    : Integer;
+      FCodLocal      : Integer;
+      FLote          : String;
+      FDataFabricacao: TDate;
+      FDataVencimento: TDate;
+      FQuantidade    : Double;
+      FDataHora      : TDateTime;
+    public
+
+  end;
+
+implementation
+
+end.

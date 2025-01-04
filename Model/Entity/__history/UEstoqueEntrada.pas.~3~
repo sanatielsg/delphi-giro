@@ -1,0 +1,12 @@
+unit UEstoqueEntrada;
+
+interface
+
+type
+  TEstoqueEntrada = class
+
+  end;
+
+implementation
+
+end.
