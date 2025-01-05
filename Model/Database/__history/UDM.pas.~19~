@@ -1,0 +1,60 @@
+unit UDM;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, DBAccess, Uni, UniProvider,
+  PostgreSQLUniProvider, MemDS
+  ;
+
+type
+  TDM = class(TDataModule)
+    Connection: TUniConnection;
+    Provider: TPostgreSQLUniProvider;
+    UniQuery1: TUniQuery;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    function Install():String;
+  end;
+
+var
+  DM: TDM;
+
+const
+  VERSAO = 1;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+{ TDM }
+
+function TDM.Install: String;
+var vQry: TUniQuery;
+    vSQL : String;
+begin
+  vQry := TUniQuery.Create(Nil);
+  try
+    try
+       vSQL :=  ' CREATE TABLE OPERADOR( '
+              + ' OPE_CODIGO SERIAL,  '
+              + ' OPE_NOME VARCHAR(100) NOT NULL,'
+
+
+
+              + ')';
+      Result:= 'Tabelas/Campos Criados ou Atualizados!';
+    except
+      on E:Exception do
+         Result:= 'Ocorreu um Erro: '+E.Message;
+    end;
+  finally
+    vQry.Free;
+  end;
+end;
+
+end.

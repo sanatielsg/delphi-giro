@@ -43,11 +43,11 @@ begin
 
   try
     try
-       vSQL :=  ' CREATE TABLE OPERADOR(           '
-              + ' OPE_CODIGO SERIAL,               '
-              + ' OPE_NOME   VARCHAR(100) NOT NULL,'
-              + ' OPE_LOGIN  VARCHAR(100) NOT NULL,'
-              + ' OPE_SENHA  VARCHAR(100) NOT NULL '
+       vSQL :=  ' CREATE TABLE OPERADOR(          '
+              + ' OPE_CODIGO SERIAL,              '
+              + ' OPE_NOME VARCHAR(100) NOT NULL, '
+              + ' OPE_LOGIN VARCHAR(100) NOT NULL,'
+              + ' OPE_SENHA VARCHAR(100) NOT NULL'
               + ')';
       vQry.SQL.Clear;
       vQry.SQL.Add(vSQL);

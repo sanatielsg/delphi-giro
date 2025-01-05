@@ -43,11 +43,11 @@ begin
 
   try
     try
-       vSQL :=  ' CREATE TABLE OPERADOR(           '
-              + ' OPE_CODIGO SERIAL,               '
-              + ' OPE_NOME   VARCHAR(100) NOT NULL,'
-              + ' OPE_LOGIN  VARCHAR(100) NOT NULL,'
-              + ' OPE_SENHA  VARCHAR(100) NOT NULL '
+       vSQL :=  ' CREATE TABLE OPERADOR(          '
+              + ' OPE_CODIGO SERIAL,              '
+              + ' OPE_NOME VARCHAR(100) NOT NULL, '
+              + ' OPE_LOGIN VARCHAR(100) NOT NULL,'
+              + ' OPE_SENHA VARCHAR(100) NOT NULL'
               + ')';
       vQry.SQL.Clear;
       vQry.SQL.Add(vSQL);
@@ -58,12 +58,12 @@ begin
     end;
 
     try
-       vSQL :=  ' CREATE TABLE PRODUTO (                      '
-              + ' PRO_CODIGO           SERIAL,                '
-              + ' PRO_DESCRICAO        VARCHAR(100) NOT NULL, '
+       vSQL :=  ' CREATE TABLE PRODUTO (          '
+              + ' PRO_CODIGO    SERIAL,              '
+              + ' PRO_DESCRICAO VARCHAR(100) NOT NULL, '
               + ' PRO_ESTOQUE_NEGATIVO INT NOT NULL DEFAULT 0,'
-              + ' PRO_STATUS_ENTRADA   INT NOT NULL DEFAULT 0,'
-              + ' PRO_STATUS_SAIDA     INT NOT NULL DEFAULT 0 '
+              + ' PRO_STATUS_ENTRADA INT NOT NULL DEFAULT 0, '
+
               + ')';
       vQry.SQL.Clear;
       vQry.SQL.Add(vSQL);
