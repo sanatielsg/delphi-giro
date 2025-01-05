@@ -4,14 +4,12 @@ interface
 
 uses
   System.SysUtils, System.Classes, Data.DB, DBAccess, Uni, UniProvider,
-  PostgreSQLUniProvider, MemDS
-  ;
+  PostgreSQLUniProvider;
 
 type
   TDM = class(TDataModule)
     Connection: TUniConnection;
     Provider: TPostgreSQLUniProvider;
-    UniQuery1: TUniQuery;
   private
     { Private declarations }
   public

@@ -4,8 +4,7 @@ interface
 
 uses
   System.SysUtils, System.Classes, Data.DB, DBAccess, Uni, UniProvider,
-  PostgreSQLUniProvider, MemDS
-  ;
+  PostgreSQLUniProvider, MemDS;
 
 type
   TDM = class(TDataModule)

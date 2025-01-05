@@ -5,15 +5,18 @@ interface
 type
   TOperadorDAO = class
     private
+
+
     public
-      function Login(AUsername, APassword: String): Integer;
+      function Login(AUsername, APassword: String): Boolean;
       function Encrypt(AString, ASeed: String): String;
+
+
   end;
+
 
 implementation
 
-uses
-  Uni;
 
 const
   SEED = 'R6#GIRO2022@';
@@ -25,9 +28,9 @@ begin
 
 end;
 
-function TOperadorDAO.Login(AUsername, APassword: String): Integer;
+function TOperadorDAO.Login(AUsername, APassword: String): Boolean;
   var vSQL,vUser,vPasswd : String;
-      vQry : TUniQuery;
+      vQry : TObject;
 begin
   vSQL := ' SELECT * '
         + ' FROM OPERADOR '
@@ -37,19 +40,11 @@ begin
   vUser := Encrypt(AUsername, SEED);
   vPasswd := Encrypt(APassword, SEED);
 
-  vQry := TUniQuery.Create(Nil);
+  vQry := TObject.Create;
   try
-    with (vQry) do
-    begin
-      SQL.Add(vSQL);
-      ParamByName('ope_usuario').AsString := vUser;
-      ParamByName('ope_senha').AsString := vPasswd;
-      Open;
-      if RecordCount > 0 then
-        Result := FieldByName('ope_codigo').AsInteger
-      else
-        Result := -1;
-    end;
+
+
+
   finally
     vQry.Free;
   end;
